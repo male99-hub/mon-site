@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & RDV | MK CABINET MEDICAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MK CABINET MEDICAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li><a class="nav-link" href="specialites.html">Spécialités</a></li>
+                    <li><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="ms-lg-3"><a class="btn btn-primary rounded-pill px-4" href="login.html">Espace Patient</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 bg-white border-bottom mb-5">
+        <div class="container text-center">
+            <h1 class="fw-bold display-6">Contactez-nous</h1>
+            <p class="text-muted">Notre équipe vous répond sous 24h ouvrées.</p>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row g-5">
+            
+            <div class="col-md-7">
+                <div class="p-4 border rounded-4 shadow-sm bg-white">
+                    <h2 class="h4 fw-bold mb-4">Formulaire de contact</h2>
+                    
+                    <form action="#" method="POST" class="row g-3">
+                        
+                        <div class="col-md-12 mb-3">
+                            <label class="form-label fw-semibold">Nom complet</label>
+                            <input type="text" class="form-control" placeholder="Ex: Moussa Ndiaye" required minlength="2">
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-semibold">Email</label>
+                            <input type="email" class="form-control" placeholder="nom@exemple.com" required>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-semibold">Téléphone</label>
+                            <input type="tel" class="form-control" placeholder="770712008" required>
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+                            <label class="form-label fw-semibold">Sujet de votre demande</label>
+                            <select class="form-select" required>
+                                <option value="" selected disabled>Choisir une option...</option>
+                                <option value="rdv">Prendre un rendez-vous</option>
+                                <option value="info">Demande d'information</option>
+                                <option value="recrutement">Candidature / Emploi</option>
+                                 
+                            </select>
+                        </div>
+
+                        <div class="col-12 mb-3">
+                            <label class="form-label fw-semibold">Votre message</label>
+                            <textarea class="form-control" rows="5" required minlength="20" placeholder="Décrivez votre besoin en au moins 20 caractères..."></textarea>
+                        </div>
+
+                        <div class="col-12 mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkConsent" required>
+                                <label class="form-check-label small text-muted" for="checkConsent">
+                                    J'accepte les conditions générales et la politique de confidentialité.
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill fw-bold">
+                                <i class="bi bi-send me-2"></i>Envoyer le message
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="p-4 bg-primary text-white rounded-4 shadow-lg h-100">
+                    <h2 class="h4 fw-bold mb-4 border-bottom pb-3">Nos Coordonnées</h2>
+                    
+                    <div class="d-flex mb-4">
+                        <i class="bi bi-geo-alt-fill fs-3 text-warning me-3"></i>
+                        <div>
+                            <p class="fw-bold mb-0">Adresse</p>
+                            <p class="small mb-0">HLM Grand Yoff, Villa n°123, Dakar, Sénégal</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <i class="bi bi-telephone-fill fs-3 text-warning me-3"></i>
+                        <div>
+                            <p class="fw-bold mb-0">Téléphone</p>
+                            <p class="small mb-0">+221 33 312 05 97</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <i class="bi bi-envelope-at-fill fs-3 text-warning me-3"></i>
+                        <div>
+                            <p class="fw-bold mb-0">Email</p>
+                            <p class="small mb-0">mk@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 p-3 bg-white bg-opacity-10 rounded-3">
+                        <h3 class="h6 fw-bold mb-3"><i class="bi bi-clock-fill me-2"></i>Horaires d'accueil</h3>
+                        <div class="d-flex justify-content-between small mb-1">
+                            <span>Lundi - Vendredi :</span>
+                            <span>08h00 - 19h00</span>
+                        </div>
+                        <div class="d-flex justify-content-between small">
+                            <span>Samedi :</span>
+                            <span>09h00 - 12h00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+<section class="container my-5">
+    <h2 class="fw-bold text-center mb-4">Où nous trouver ?</h2>
+    <div class="row">
+        <div class="col-12">
+            <div class="ratio ratio-21x9 shadow-sm rounded-4 overflow-hidden">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.746536486!2d-17.45!3d14.73!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQzJzQ4LjAiTiAxN8KwMjcnMDAuMCJX!5e0!3m2!1sfr!2ssn!4v1715000000000!5m2!1sfr!2ssn" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <p class="text-center mt-3 text-muted">
+                <i class="bi bi-info-circle me-2"></i>Le cabinet se situe à deux pas de l'arret de brt cardinal yacine thiandoum.
+            </p>
+        </div>
+    </div>
+</section>
+    <footer class="bg-dark text-white py-4 text-center mt-5">
+        <div class="container">
+            <p class="small mb-0 opacity-75">&copy; 2026 MK CABINET MEDICAL - Dakar</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
