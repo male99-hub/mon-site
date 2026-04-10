@@ -1,14 +1,8 @@
-
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background-color: #f8f9fa;
     color: #212529;
 }
-
-
-   2. CORRECTION DES IMAGES (Anti-mosaïque & Alignement)
-   ============================================================ */
-
 
 .img-zoom-container {
     height: 280px;           
@@ -16,7 +10,6 @@ body {
     width: 100%;
     background-color: #eee;  
 }
-
 
 .img-card-fixed {
     width: 100%;
@@ -33,19 +26,15 @@ body {
     overflow: hidden;         
 }
 
-
 .specialite-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
 }
 
-
 .specialite-card:hover .img-card-fixed {
     transform: scale(1.08);
 }
 
-
-   
 .btn-sm {
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -61,7 +50,63 @@ body {
     line-height: 1;
 }
 
-
 a, button {
     transition: all 0.2s ease-in-out;
+}
+
+h1, h2, h3 {
+    color: #0d6efd;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+.form-control, .form-select {
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.2);
+}
+
+.login-wrapper {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    font-size: 14px;
 }
